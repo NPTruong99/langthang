@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cà phê đen - Lang thang</title>
+
+        <!-- Embed Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- Grid CSS -->
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+
+        <!-- Styles CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- =========== Start Header =========== -->
+            <header class="header">
+                <div class="header__coffee-container">
+                    <!-- Start Header Navbar -->
+                    <div class="header__nav">
+                        <section class="grid wide">
+                            <div class="header__nav-container">
+                                <div class="row row-center">
+                                    <!-- Start Header Left -->
+                                    <div class="header__nav-left col l-1">
+                                        <img
+                                            src="./assets/icon/header-search.svg"
+                                            alt=""
+                                            class="header__nav-search"
+                                        />
+                                    </div>
+                                    <!-- End Header Left -->
+
+                                    <!-- Start Header Center -->
+                                    <div class="header__nav-center col l-9">
+                                        <div class="header-nav__list">
+                                            <div class="row row-center">
+                                                <div
+                                                    class="header-nav__item active"
+                                                >
+                                                    <a
+                                                        href="#"
+                                                        class="header-nav__link"
+                                                    >
+                                                        Trang chủ
+                                                    </a>
+                                                </div>
+                                                <div class="header-nav__item">
+                                                    <a
+                                                        href="#menu"
+                                                        class="header-nav__link"
+                                                    >
+                                                        Thực đơn
+                                                    </a>
+                                                </div>
+                                                <div class="header-nav__item">
+                                                    <a href="#!">
+                                                        <img
+                                                            src="./assets/img/header-logo.png"
+                                                            alt=""
+                                                            class="header-nav__logo"
+                                                        />
+                                                    </a>
+                                                </div>
+                                                <div class="header-nav__item">
+                                                    <a
+                                                        href="#user"
+                                                        class="header-nav__link"
+                                                    >
+                                                        Ưu đãi
+                                                    </a>
+                                                </div>
+                                                <div class="header-nav__item">
+                                                    <a
+                                                        href="#author"
+                                                        class="header-nav__link"
+                                                    >
+                                                        Về chúng tôi
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Header Center -->
+
+                                    <!-- Start Header Right -->
+                                    <div class="header__nav-right col l-1">
+                                        <img
+                                            src="./assets/icon/header-cart.svg"
+                                            alt=""
+                                            class="header__nav-cart"
+                                        />
+                                        <span class="header__nav-qty">0</span>
+                                    </div>
+                                    <!-- End Header Right -->
+
+                                    <!-- Start Header User -->
+                                    <div class="header-user--login col l-1">
+                                        <figure class="user--login-img">
+                                            <img
+                                                src="./assets/img/avatar.png"
+                                                alt=""
+                                                class="user-avatar"
+                                            />
+                                        </figure>
+
+                                        <div class="user--login-option">
+                                            <div class="user--login__info">
+                                                <span class="user--login__name">
+                                                    Trường Nguyễn
+                                                </span>
+                                                <span class="user--login__id">
+                                                    ID: #999999999
+                                                </span>
+                                            </div>
+
+                                            <div class="user--login__options">
+                                                <div
+                                                    class="user--login__item active"
+                                                >
+                                                    Trang chủ
+                                                </div>
+                                                <div
+                                                    class="user--login__item user__item-option-cart"
+                                                >
+                                                    Giỏ hàng
+                                                </div>
+                                                <div
+                                                    class="user--login__item"
+                                                    onclick="openHistoryOrder()"
+                                                >
+                                                    Đơn hàng
+                                                </div>
+                                                <div class="user--login__item">
+                                                    Voucher
+                                                </div>
+                                                <div class="user--login__item">
+                                                    Cài đặt
+                                                </div>
+                                                <div class="user--login__item">
+                                                    Đăng xuất
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Header User -->
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- End Header Navbar -->
+                </div>
+            </header>
+            <!-- =========== End Header =========== -->
+
+            <!-- =========== Start Breadcrumb =========== -->
+            <div class="breadcrumb">
+                <div class="grid wide">
+                    <div class="breadcrumb-container">
+                        <ul class="breadcrumb__list">
+                            <li class="breadcrumb__item">
+                                <a href="#!" class="breadcrumb__link">
+                                    Thực đơn
+                                </a>
+                            </li>
+                            <li class="breadcrumb__item">
+                                <a href="#!" class="breadcrumb__link">Cà phê</a>
+                            </li>
+                            <li class="breadcrumb__item">Cà phê đen</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- =========== End Breadcrumb =========== -->
+
+            <!-- =========== Start Product =========== -->
+            <section class="product">
+                <section class="grid wide">
+                    <section class="product-container">
+                        <figure class="product-image col l-6">
+                            <img
+                                src="./assets/img/coffee/coffee-01.webp"
+                                alt=""
+                                class="product-img"
+                            />
+                        </figure>
+
+                        <div class="product__info col l-6">
+                            <h4 class="product__info-title">
+                                Bạc Xỉu mini (100ml)
+                            </h4>
+
+                            <span class="product__info-price">
+                                59.000&nbsp;₫
+                            </span>
+
+                            <!-- Start Option -->
+                            <div class="option__size">
+                                <span class="option__size-title">
+                                    Chọn size (bắt buộc)
+                                </span>
+
+                                <div class="product__option">
+                                    <div class="size size-medium">
+                                        <i
+                                            class="fa-solid fa-mug-hot size-medium-icon"
+                                        ></i>
+
+                                        <span class="size-medium-desc">
+                                            Nhỏ + 0 đ
+                                        </span>
+                                    </div>
+
+                                    <div class="size size-large">
+                                        <i
+                                            class="fa-solid fa-mug-hot size-large-icon"
+                                        ></i>
+
+                                        <span class="size-large-desc">
+                                            Vừa + 10.000 đ
+                                        </span>
+                                    </div>
+
+                                    <div class="size size-small">
+                                        <i
+                                            class="fa-solid fa-mug-hot size-small-icon"
+                                        ></i>
+
+                                        <span class="size-small-desc">
+                                            Lớn + 16.000 đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Option -->
+
+                            <!-- Start Topping -->
+                            <div class="topping">
+                                <span class="topping-title">Topping</span>
+
+                                <ul class="topping__list">
+                                    <li class="topping__item">
+                                        Trân châu trắng + 10.000 đ
+                                    </li>
+                                    <li class="topping__item">
+                                        Đào miếng + 10.000 đ
+                                    </li>
+                                    <li class="topping__item">
+                                        Trái vải + 10.000 đ
+                                    </li>
+                                    <li class="topping__item">
+                                        Hạt sen + 10.000 đ
+                                    </li>
+                                    <li class="topping__item">
+                                        Nha đam + 10.000 đ
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button class="order">
+                                <i
+                                    class="fa-solid fa-truck-fast order-icon"
+                                ></i>
+                                Đặt giao tận nơi
+                            </button>
+                            <!-- Enđ Topping -->
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <!-- =========== End Product =========== -->
+
+            <!-- =========== Start Description =========== -->
+            <section class="description">
+                <section class="grid wide">
+                    <section class="description-container">
+                        <h4 class="description__title">Mô tả sản phẩm</h4>
+                        <p class="description__desc">
+                            Một gợi ý nhỏ để giúp bạn thưởng thức trọn vẹn các
+                            hương vị cà phê của Lang Thang, đó chính là Combo
+                            trải nghiệm Mini - 6 vị cà phê đặc trưng của Lang
+                            Thang trong chai 100ml. Combo Mini sẽ được bán chính
+                            thức tại Lang Thang: 01 chai Cà phê 100ml bất kỳ:
+                            chỉ 40.000/chai Combo Sáng tạo 03 chai Cà phê 100ml
+                            bất kỳ: chỉ 105.000/3 chai (giá gốc 120.000) Combo
+                            Trọn vị 06 chai Cà phê 100ml: chỉ 180.000/6 chai
+                            (giá gốc 240.000)
+                        </p>
+                    </section>
+                </section>
+            </section>
+            <!-- =========== End Description =========== -->
+
+            <!-- =========== Start Related =========== -->
+            <section class="related">
+                <section class="grid wide">
+                    <section class="related-container">
+                        <h4 class="related__title">Sản phẩm liên quan</h4>
+
+                        <div class="related__list">
+                            <article class="related__item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/coffee/coffee-02.webp"
+                                        alt=""
+                                        class="related__img"
+                                    />
+                                </figure>
+
+                                <section class="related__info">
+                                    <a href="#!">
+                                        <div class="related__info-title">
+                                            Caramel Latte mini (100ml)
+                                        </div>
+                                    </a>
+
+                                    <div class="related__info-price">
+                                        59.000&nbsp;₫
+                                    </div>
+                                </section>
+                            </article>
+
+                            <article class="related__item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/coffee/coffee-03.webp"
+                                        alt=""
+                                        class="related__img"
+                                    />
+                                </figure>
+
+                                <section class="related__info">
+                                    <a href="#!">
+                                        <div class="related__info-title">
+                                            Cold Brew mini (100ml)
+                                        </div>
+                                    </a>
+
+                                    <div class="related__info-price">
+                                        49.000&nbsp;₫
+                                    </div>
+                                </section>
+                            </article>
+
+                            <article class="related__item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/coffee/coffee-04.webp"
+                                        alt=""
+                                        class="related__img"
+                                    />
+                                </figure>
+
+                                <section class="related__info">
+                                    <a href="#!">
+                                        <div class="related__info-title">
+                                            Creamie mini (100ml)
+                                        </div>
+                                    </a>
+
+                                    <div class="related__info-price">
+                                        49.000&nbsp;₫
+                                    </div>
+                                </section>
+                            </article>
+
+                            <article class="related__item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/coffee/coffee-05.webp"
+                                        alt=""
+                                        class="related__img"
+                                    />
+                                </figure>
+
+                                <section class="related__info">
+                                    <a href="#!">
+                                        <div class="related__info-title">
+                                            Đen Óng mini (100ml)
+                                        </div>
+                                    </a>
+
+                                    <div class="related__info-price">
+                                        55.000&nbsp;₫
+                                    </div>
+                                </section>
+                            </article>
+
+                            <article class="related__item">
+                                <figure>
+                                    <img
+                                        src="./assets/img/coffee/coffee-06.webp"
+                                        alt=""
+                                        class="related__img"
+                                    />
+                                </figure>
+
+                                <section class="related__info">
+                                    <a href="#!">
+                                        <div class="related__info-title">
+                                            Nâu "Sánh" mini (100ml)
+                                        </div>
+                                    </a>
+
+                                    <div class="related__info-price">
+                                        49.000&nbsp;₫
+                                    </div>
+                                </section>
+                            </article>
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <!-- =========== End Related =========== -->
+
+            <!-- =========== End Cart =========== -->
+            <section class="cart">
+                <div class="cart__header">
+                    <button class="btn--back">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        Quay lại
+                    </button>
+
+                    <h4 class="cart__title">Giỏ hàng</h4>
+
+                    <div class="cart__quanlity">
+                        SL : <span class="quanlity">0</span>
+                    </div>
+                </div>
+
+                <div class="cart__container">
+                    <div class="cart_body">
+                        <div class="list__cart"></div>
+                    </div>
+                    <div class="cart__footer">
+                        <div class="cart__sub-total">
+                            <div class="sub__total-bill">
+                                <span class="title__total-bill"
+                                    >Tổng hóa đơn :
+                                </span>
+                                <span class="content__total-bill">0 VNĐ</span>
+                            </div>
+                            <div class="sub__total-ship">
+                                <span class="title__total-ship"
+                                    >Phí giao hàng :
+                                </span>
+                                <span class="content__total-ship"
+                                    >15,000 VNĐ</span
+                                >
+                            </div>
+                        </div>
+
+                        <div class="cart__total">
+                            <span class="cart__total-title"> Tổng tiền : </span>
+
+                            <span class="cart__total-content"> 0 VNĐ </span>
+                        </div>
+
+                        <button class="button__buy">xác nhận thanh toán</button>
+                    </div>
+                </div>
+            </section>
+            <!-- =========== End Cart =========== -->
+
+            <!-- =========== Start Footer =========== -->
+            <footer class="footer">
+                <section class="grid wide">
+                    <section class="footer-container">
+                        <section class="footer-row">
+                            <section class="footer-col">
+                                <h4 class="footer-col-title">
+                                    Thông tin liên hệ
+                                </h4>
+
+                                <div class="footer__location">
+                                    <div class="location-name-wrap">
+                                        <h5 class="location-name">
+                                            <i
+                                                class="fa-solid fa-location-dot location-icon"
+                                            ></i>
+                                            Hà Nội
+                                        </h5>
+                                        <p class="location-desc">
+                                            XR5W+GG4, P. Trần Thủ Độ, Hoàng
+                                            Liệt, Hai Bà Trưng, Hà Nộ
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="footer__email">
+                                    <div class="email-name-wrap">
+                                        <i
+                                            class="fa-regular fa-envelope email-icon"
+                                        ></i>
+                                        <div class="email-text">Gmail</div>
+                                    </div>
+                                    <p class="email__address">
+                                        Thelangthang90@gmail.com
+                                    </p>
+                                </div>
+
+                                <div class="footer__socials">
+                                    <div
+                                        class="footer__social-icon social-icon"
+                                    >
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </div>
+
+                                    <div class="footer__social-icon">
+                                        <i
+                                            class="fa-brands fa-instagram social-icon"
+                                        ></i>
+                                    </div>
+
+                                    <div class="footer__social-icon">
+                                        <i
+                                            class="fa-brands fa-twitter social-icon"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="footer-col">
+                                <h4 class="footer-col-title">Sản phẩm</h4>
+                                <ul class="footer-col-list">
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Cà phê
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Trà sữa
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Sữa tươi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Soda
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Bánh ngọt
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+
+                            <section class="footer-col">
+                                <h4 class="footer-col-title">Trợ giúp</h4>
+                                <ul class="footer-col-list">
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Tìm kiếm
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Giới thiệu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Tuyển dụng
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Soda
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="footer-col-link">
+                                            Bánh ngọt
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+
+                            <section class="footer-col">
+                                <h4 class="footer-col-title">Sản phẩm</h4>
+                                <span class="footer-col-text">
+                                    Đăng Kí Nhận Khuyến Mãi
+                                </span>
+
+                                <form
+                                    action=""
+                                    method="post"
+                                    id="form-2"
+                                    class="form-2"
+                                >
+                                    <input
+                                        type="text"
+                                        name="email-footer"
+                                        id="email-footer"
+                                        class="form-input"
+                                        placeholder="Nhập email của bạn"
+                                    />
+
+                                    <input
+                                        type="submit"
+                                        value="SEND"
+                                        class="footer-submit"
+                                    />
+                                </form>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </footer>
+            <!-- =========== End Footer =========== -->
+            <div class="cpy">
+                <p class="crp-text">
+                    2023 Copyright © TheLangThang. All rights reserved
+                </p>
+            </div>
+
+            <div id="scroll-top">
+                <a href="#" class="scroll-top--link">
+                    <i class="fa-solid fa-circle-up"> </i
+                ></a>
+            </div>
+        </div>
+
+        <script>
+            const sizes = document.querySelectorAll(".size");
+            const showCart = document.querySelector(".cart");
+            const buttonBackCart = document.querySelector(".btn--back");
+            const shopCart = document.querySelector(".header__nav-right");
+
+            shopCart.addEventListener("click", () => {
+                showCart.classList.add("active");
+            });
+
+            buttonBackCart.addEventListener("click", () => {
+                showCart.classList.remove("active");
+            });
+
+            console.dir(document.querySelector(".size.active"));
+
+            sizes.forEach(function (size) {
+                size.addEventListener("click", () => {
+                    if (!!document.querySelector(".size.active") === true) {
+                        document
+                            .querySelector(".size.active")
+                            .classList.remove("active");
+                    }
+                    size.classList.add("active");
+                });
+            });
+        </script>
+    </body>
+</html>
